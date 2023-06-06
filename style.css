@@ -1,0 +1,713 @@
+@charset "utf-8";
+@import url("reset.css");
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body{
+	background-color: white;
+}
+#wrapper{
+	width: 1300px;
+	background-color: white;
+	margin: 0 auto;
+}
+#menusection{
+	width: 1300px;
+	height: 100px;
+	
+}
+.mainmenu{
+	width: 100px;
+	position: relative;
+}
+.mainmenu li {
+    float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.mainmenu li a{
+	font-size: 25px;
+	color:black;
+	text-decoration: none;
+}
+.mainmenu li a:hover{
+	color:  #EFD813;
+}
+
+.headerlogo{
+	float: left;
+	width: 200px;
+	height: 170px;
+	margin-top: 30px;
+	
+}
+#banner{
+	width: 1300px;
+	height: 1035px;
+	position: absolute;
+}
+.bannerbox{
+	width: 500px;
+	height: 550px;
+	border:20px solid #EFD813;
+	position:absolute;
+	margin-top: -800px;
+	
+	margin-left: 650px;
+	
+}
+.bannertext h1{
+	font-size: 120px;
+	font-weight: bold;
+	color:black;
+	margin-left: 20px;
+	
+}
+.bannertext1 {
+	width: 500px;
+	height: 300px;
+	margin-top: 80px;
+	
+}
+.bannertext1 a{
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 20px;
+	
+}
+.bannerbox1{
+	width: 150px;
+	height: 50px;
+	margin-top: -100px;
+	margin-left: 20px;
+	position: relative;
+	background-color: #EFD813;
+}
+.bannerbox1 a{
+	position: absolute;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+.bannerbox1:hover{
+background-color: white;
+}
+.bannerbox1 a:hover {
+	color: #EFD813;
+}
+.values{
+	width: 700px;
+	height: 300px;
+	
+	margin-top: 800px;
+	margin-left: 300px;
+	position: relative;
+}
+.valuestext h1{
+	position: absolute;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 75px;
+	font-weight: bold;
+}
+.valuestext1{
+	position: absolute;
+	text-align: center;
+	margin-top: 100px;
+}
+.valuestext1 a{
+	font-size:25px;
+	color: #656363;
+}
+.valuebox {
+	width: 150px;
+	height: 50px;
+	border: 3px solid #EFD813;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 245px;
+	background-color: #EFD813;
+}
+.valuebox a{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	color:black;
+}
+.valuebox:hover{
+background-color: white;
+}
+.valuebox a:hover {
+	color: #EFD813;
+}
+#product{
+	width: 1300px;
+	height: 845px;
+	position: relative;
+	margin-top: 20px;
+}
+.productbox{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-top: -700px;
+	margin-left: 100px;
+	background-color: black;
+	opacity: 0.7;
+	box-shadow: 5px 1px 5px;
+}
+.productbox img{
+	position: absolute;
+	margin-left: 20px;
+}
+.productbox h1{
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.productboxtext a{
+	position: absolute;
+	margin-left: 20px;
+	font-size: 20px;
+	color: white;
+	margin-top: 150px;
+}
+.productbox1{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-top: -700px;
+	margin-left: 500px;
+	background-color: black;
+	opacity: 0.7;
+	box-shadow: 5px 1px 5px;
+}
+.productbox1 img{
+	position: absolute;
+	margin-left: 20px;
+}
+.productbox1 h1{
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.productboxtext1 a{
+	position: absolute;
+	margin-left: 20px;
+	font-size: 20px;
+	color: white;
+	margin-top: 150px;
+}
+.productbox2{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-top: -350px;
+	margin-left: 100px;
+	background-color: black;
+	opacity: 0.7;
+	box-shadow: 5px 1px 5px;
+}
+.productbox2 img{
+	position: absolute;
+	margin-left: 20px;
+}
+.productbox2 h1{
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.productboxtext2 a{
+	position: absolute;
+	margin-left: 20px;
+	font-size: 20px;
+	color: white;
+	margin-top: 150px;
+}
+.productbox3{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-top: -350px;
+	margin-left: 500px;
+	background-color: black;
+	opacity: 0.7;
+	box-shadow: 5px 1px 5px;
+}
+.productbox3 img{
+	position: absolute;
+	margin-left: 20px;
+}
+.productbox3 h1{
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.productboxtext3 a{
+	position: absolute;
+	margin-left: 20px;
+	font-size: 20px;
+	color: white;
+	margin-top: 150px;
+}
+#items{
+	width: 1300px;
+	height: 1200px;
+	position: relative;
+	
+	
+}
+.itemtext{
+	width: 700px;
+	height: 100px;
+	position: absolute;
+	margin-left: 300px;
+	
+}
+.itemtext h1{
+	font-size: 50px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+.mainbox{
+	width: 1300px;
+	height: 1150px;
+	position: absolute;
+	
+}
+.itembox{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	
+	margin-top: 200px;
+	border: 10px solid #EFD813;
+}
+.itemboxtext{
+	position: absolute;
+	font-size: 20px;
+	color:black;
+	
+	margin-top: 600px;
+	font-weight: bold;
+}
+.itembox1{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-left: 470px;
+	margin-top: 200px;
+	border: 10px solid #EFD813;
+}
+.itemboxtext1{
+	position: absolute;
+	font-size: 20px;
+	color:black;
+	margin-left: 470px;
+	margin-top: 600px;
+	font-weight: bold;
+}
+.itembox2{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-left: 935px;
+	margin-top: 200px;
+	border: 10px solid #EFD813;
+}
+.itemboxtext2{
+	position: absolute;
+	font-size: 20px;
+	color:black;
+	margin-left: 937px;
+	margin-top: 600px;
+	font-weight: bold;
+}
+.itembox3{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	
+	margin-top: 700px;
+	border: 10px solid #EFD813;
+}
+.itemboxtext3{
+	position: absolute;
+	font-size: 20px;
+	color:black;
+	
+	margin-top: 1100px;
+	font-weight: bold;
+}
+.itembox4{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-left: 470px;
+	margin-top: 700px;
+	border: 10px solid #EFD813;
+}
+.itemboxtext4{
+	position: absolute;
+	font-size: 20px;
+	color:black;
+	margin-left: 470px;
+	margin-top: 1100px;
+	font-weight: bold;
+}
+.itembox5{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-left: 935px;
+	margin-top: 700px;
+	border: 10px solid #EFD813;
+}
+.itemboxtext5{
+	position: absolute;
+	font-size: 20px;
+	color:black;
+	margin-left: 937px;
+	margin-top: 1100px;
+	font-weight: bold;
+}
+#organicbread{
+	width: 1300px;
+	height: 600px;
+	position: relative;
+}
+.organicbreadtext {
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: -550px;
+}
+.organicbreadtext h1{
+	position: absolute;
+	font-size: 70px;
+	color: white;
+	font-weight: bold;
+	
+}
+.organicbreadtext1{
+	width: 900px;
+	height: 300px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -400px;
+}
+.organicbreadtext1 a{
+	position: absolute;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+		
+}
+.organicbox{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 150px;
+	background-color: #EFD813;
+	border: 3px solid #EFD813;
+}
+.organicbox a{
+	position: absolute;
+	text-align: center;
+	margin-left: 35px;
+	margin-top: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.organicbox :hover {
+	background-color: white; 
+}
+.organicbox a:hover{
+	color: #EFD813;
+}
+.organicbox1{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 400px;
+	background-color: #EFD813;
+	border: 3px solid #EFD813;
+}
+.organicbox1 a{
+	position: absolute;
+	text-align: center;
+	margin-left: 35px;
+	margin-top: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.organicbox1 :hover {
+	background-color: white; 
+}
+.organicbox1 a:hover{
+	color: #EFD813;
+}
+.organicbox2{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 650px;
+	background-color: #EFD813;
+	border: 3px solid #EFD813;
+}
+.organicbox2 a{
+	position: absolute;
+	text-align: center;
+	margin-left: 45px;
+	margin-top: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.organicbox2 :hover {
+	background-color: white; 
+}
+.organicbox2 a:hover{
+	color: #EFD813;
+}
+.organicbox3{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 900px;
+	background-color: #EFD813;
+	border: 3px solid #EFD813;
+}
+.organicbox3 a{
+	position: absolute;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.organicbox3 :hover {
+	background-color: white; 
+}
+.organicbox3 a:hover{
+	color: #EFD813;
+}
+#ourstory{
+	width: 1300px;
+	height: 700px;
+	position: relative;
+	
+}
+.ourstoryimg {
+	width: 500px;
+	height: 358px;
+	position: absolute;
+	margin-left: 100px;
+	
+	border: 5px solid #EFD813;
+}
+.ourstoryimgtext a{
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	font-weight: bold;
+	margin-left: 100px;
+	margin-top: 400px;
+	text-decoration: none;
+}
+.ourstoryimgtext a:hover{
+	color: #EFD813;
+}
+.ourstoryimg1 {
+	width: 500px;
+	height: 358px;
+	position: absolute;
+	margin-left: 700px;
+	
+	border: 5px solid #EFD813;
+}
+.ourstoryimgtext1 a{
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	font-weight: bold;
+	margin-left: 700px;
+	margin-top: 400px;
+	text-decoration: none;
+}
+.ourstoryimgtext1 a:hover{
+	color: #EFD813;
+}
+.ourstoryimgbox{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	margin-top: 500px;
+	
+}
+.ourstoryimgbox1{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 350px;
+}
+.ourstoryimgbox2{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 700px;
+}
+.ourstoryimgbox3{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 1050px;
+}
+#storing{
+	width: 1300px;
+	height: 800px;
+	position: relative;
+	
+	
+}
+.storingtext{
+	width: 700px;
+	height: 800px;
+	position: absolute;
+	
+	margin-left: 300px;
+}
+.storingtext1{
+	width: 500px;
+	height: 100px;
+	
+	margin-left: 100px;
+}
+.storingtext1 h1{
+	font-size: 50px;
+	color: black;
+	font-weight: bold;
+	margin-top: 50px;
+	text-align: center;
+	
+}
+.storingtext2{
+	width: 500px;
+	height: 200px;
+	
+	margin-left: 100px;
+	position: absolute;
+}
+.storingtext2 a{
+	position: absolute;
+	font-size: 20px;
+	color: black;
+    margin-top: 50px;
+	text-align: center;
+}
+.storingimg{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 100px;
+	border:5px solid #EFD813; 
+}
+#footer{
+	width: 1300px;
+	height: 600px;
+	position: relative;
+}
+.footerimg{
+	position: absolute;
+}
+.footertextbox{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	
+	margin-left: 200px;
+	margin-top: 300px;
+	background-color: white;
+}
+.footertext{
+	position: absolute;
+	margin-left: 180px;
+}
+.footertext h1 {
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+}
+.footertext1 {
+	width: 350px;
+	height: 150px;
+	position: relative;
+	
+	margin-left: 100px;
+	margin-top: 200px;
+}
+.footertext1 a{
+	position: absolute;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: -70px;
+	font-size: 25px;
+	color: #EFD813;
+}
+.footertext1  li{
+	margin-top: 10px;
+	margin-left: 100px;
+	font-size: 20px;
+	color:black;
+	line-height: 20px;
+}
+.footertext1 a:hover{
+	color: black;
+}
+.footertextbox1{
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	
+	margin-left: 800px;
+	margin-top: 300px;
+	background-color: #EFD813;
+}
+.footertext2{
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 55px;
+	
+	font-size: 25px;
+	color: white;
+}
